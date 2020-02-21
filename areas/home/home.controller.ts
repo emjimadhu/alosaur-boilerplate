@@ -14,8 +14,10 @@ import {
   ServerRequest
 } from 'alosaur/mod.ts';
 
+
 @Controller('/home')
 export class HomeController {
+
   constructor() {}
 
   @Get('/text')
@@ -37,7 +39,7 @@ export class HomeController {
   }
 
   @Get('/error')
-  error() {
+  error(){
     throw new ForbiddenError('error');
   }
 
