@@ -1,10 +1,20 @@
 {
   "name": "alosaur-boilerplate",
   "version": "1.0.0",
-  "description": "A Basic Alosaur boilerplate",
+  "description": "Alosaur Boilerplate",
   "scripts": {
     "start": "deno run -A --importmap=imports.json --config ./tsconfig.json app.ts",
     "format": "deno fmt \"**/**/*.ts\" \"app.ts\" --prettierrc=prettierrc.json"
   },
-  "license": "MIT"
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/emjimadhu/alosaur-boilerplate.git"
+  },
+  "keywords": [],
+  "author": {
+    "name": "Em Ji Madhu",
+    "email": "emjimadhu@gmail.com"
+  },
+  "homepage": "https://bitbucket.org/emjimadhu/alosaur-boilerplate#readme"
 }
