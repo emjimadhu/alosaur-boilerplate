@@ -1,4 +1,5 @@
 import { Middlware } from 'alosaur/decorator/Middlware.ts';
+
 import { MiddlwareTarget } from 'alosaur/models/middlware-target.ts';
 
 @Middlware(new RegExp('/'))

@@ -20,7 +20,6 @@ export class InfoController {
 
 }
 
-
 function delay(duration: number): Promise<any> {
   return new Promise(function(resolve, reject){
     setTimeout(function(){

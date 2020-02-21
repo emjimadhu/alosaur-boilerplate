@@ -14,7 +14,6 @@ import {
   ServerRequest
 } from 'alosaur/mod.ts';
 
-
 @Controller('/home')
 export class HomeController {
 
