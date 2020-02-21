@@ -4,6 +4,7 @@
   "description": "Alosaur Boilerplate",
   "scripts": {
     "start": "deno run -A --importmap=imports.json --config ./tsconfig.json app.ts",
+    "start:dev": "denon",
     "format": "deno fmt \"**/**/*.ts\" \"app.ts\" --prettierrc=prettierrc.json"
   },
   "license": "MIT",

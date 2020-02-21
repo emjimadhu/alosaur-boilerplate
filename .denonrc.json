@@ -1,0 +1,25 @@
+{
+  "files": [
+    "app.ts"
+  ],
+  "quiet": false,
+  "debug": true,
+  "fullscreen": true,
+  "extensions": [
+    "ts",
+    "json"
+  ],
+  "match": [
+    "*.ts"
+  ],
+  "skip": [
+    "*.{test,spec}.ts"
+  ],
+  "interval": 500,
+  "watch": [
+    "src/"
+  ],
+  "execute": {
+    ".ts": ["deno", "run", "-A", "--importmap", "imports.json", "--config", "tsconfig.json"]
+  }
+}
