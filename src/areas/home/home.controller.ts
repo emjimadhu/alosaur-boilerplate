@@ -16,7 +16,6 @@ import {
 
 @Controller('/home')
 export class HomeController {
-
   constructor() {}
 
   @Get('/text')
@@ -38,7 +37,7 @@ export class HomeController {
   }
 
   @Get('/error')
-  error(){
+  error() {
     throw new ForbiddenError('error');
   }
 
